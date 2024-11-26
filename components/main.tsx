@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import MovieCard from './MovieCard';
 
-const API_URL = 'http://www.omdbapi.com?apikey=ae3ef349';
+const API_URL = 'https://www.omdbapi.com?apikey=ae3ef349';
 type Movie = {
   imdbID: string;
   Year: string;
